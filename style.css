@@ -1,0 +1,90 @@
+body, 
+html { 
+margin:0; 
+padding:0; 
+color:#FF9900; 
+background:#FFFFCC url('backgroundtile.jpg');
+} 
+
+#wrapper {
+background-color: #FFFFFF; 
+font-family:arial;
+width: 750px;
+margin:0 auto;
+}
+
+#header {
+padding:5px 10px; 
+text-align: center;
+color: #FFFFFF;
+background: #FFFF66; /* if a browser doesn't support gradients, this solid background colour will be displayed instead */
+background: -moz-linear-gradient(top, #FF9900, #FFFF66);  /* FF3.6 */
+background: -webkit-gradient(linear, left top, left bottom, from(#FF9900), to(#FFFF66)); /* Saf4+, Chrome */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF9900, endColorstr=#FFFF66);  /* IE6,IE7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9900', endColorstr='#FFFF66')"; /* IE8 */
+
+}
+
+#nav {
+float: left;
+width: 100%;
+background-color: #FFCC00;
+}
+
+#nav ul {
+margin: 0;
+padding: 0;
+}
+
+#nav ul li {
+list-style-type: none;
+display: inline;
+color: #FFFFFF;
+}
+
+#nav li a {
+display: block;
+float: left;
+padding: 5px 10px;
+background-color: #FFCC00;
+color: #FFFFFF;
+border-right: 1px solid #fff;
+text-decoration:none;
+}
+
+#nav li:hover a{
+background-color: #FF9900;
+color: #FFFFCC;
+}
+
+
+#main_column {
+background-color: #FFFFFF; 
+padding:10px; 
+float: right;
+width: 730px;
+}
+
+p{
+font-size:12px;
+}
+
+#footer {
+clear: both;
+text-align: center;
+background-color: #FF9900;
+color: #FFFFFF;
+padding:5px 10px;
+}
+
+#footer p { 
+margin:0; 
+position: relative;
+} 
+
+* html #footer { 
+height:1px; 
+} 
+
+
+
